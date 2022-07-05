@@ -2,7 +2,8 @@
 
 /*
 *main-prints putchar
-*return: always 0
+*Return: always 0
+*main-prints putchar
 */
 int main(void)
 {
