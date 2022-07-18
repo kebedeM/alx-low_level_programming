@@ -1,0 +1,1 @@
+this is a readme for Even more pointers, arrays and strings assignment
