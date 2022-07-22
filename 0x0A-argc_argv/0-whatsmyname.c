@@ -1,17 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-int main(int argc , char **argv)
 /**
- * main - print the name of this function
- * @argc: has the length of the arguments
- * @argv: has the arguments
- * Return: 0 to indicate a good working of the program
+ * main - program prints its own name.
+ * @argc: argument count
+ * @argv: argument vectors
+ * Return: 0 on success
  */
-
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	if (argc == 1)
-		printf("%s\n", *argv);
+	argc--; /*added to pass checks*/
+	printf("%s\n", argv[0]);
 	return (0);
 }
