@@ -1,0 +1,1 @@
+This is a readme fr 0x12-singly_linked_lists project 
